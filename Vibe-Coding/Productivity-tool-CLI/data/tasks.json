@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Finish OS lab",
+    "description": "",
+    "priority": "high",
+    "due_date": "2026-10-25",
+    "status": "done",
+    "created_at": "2026-10-23T02:08:07",
+    "completed_at": "2026-10-23T02:08:08"
+  },
+  {
+    "id": 2,
+    "title": "Revise DBMS unit 3",
+    "description": "",
+    "priority": "high",
+    "due_date": null,
+    "status": "pending",
+    "created_at": "2026-10-23T02:08:07",
+    "completed_at": null
+  }
+]

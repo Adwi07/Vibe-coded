@@ -1,0 +1,50 @@
+2026-10-23 02:02:55 | INFO     | taskmanager.storage | No data file at data/test.json; starting with an empty list
+2026-10-23 02:02:55 | WARNING  | taskmanager.manager | Rejected task: empty title
+2026-10-23 02:02:55 | WARNING  | taskmanager.manager | Rejected task: invalid priority 'urgent'
+2026-10-23 02:02:55 | WARNING  | taskmanager.manager | Rejected task: invalid date '25-10-2026'
+2026-10-23 02:02:55 | INFO     | taskmanager.storage | Saved 1 tasks to data/test.json
+2026-10-23 02:02:55 | INFO     | taskmanager.manager | Task added: id=1 title='Study OS'
+2026-10-23 02:02:55 | WARNING  | taskmanager.manager | Rejected task: duplicate of id=1 ('study os')
+2026-10-23 02:02:55 | WARNING  | taskmanager.manager | Task not found: id=99
+2026-10-23 02:02:55 | WARNING  | taskmanager.manager | Rejected list filter: invalid status 'finished'
+2026-10-23 02:04:11 | ERROR    | taskmanager.storage | Corrupted JSON in data/test.json: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+2026-10-23 02:08:07 | INFO     | taskmanager.storage | No data file at D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json; starting with an empty list
+2026-10-23 02:08:07 | INFO     | taskmanager.storage | Saved 1 tasks to D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:07 | INFO     | taskmanager.manager | Task added: id=1 title='Finish OS lab'
+2026-10-23 02:08:07 | INFO     | taskmanager.storage | Loaded 1 tasks from D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:07 | INFO     | taskmanager.storage | Saved 2 tasks to D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:07 | INFO     | taskmanager.manager | Task added: id=2 title='Revise DBMS notes'
+2026-10-23 02:08:08 | INFO     | taskmanager.storage | Loaded 2 tasks from D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:08 | INFO     | taskmanager.storage | Saved 3 tasks to D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:08 | INFO     | taskmanager.manager | Task added: id=3 title='Old assignment'
+2026-10-23 02:08:08 | INFO     | taskmanager.storage | Loaded 3 tasks from D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:08 | INFO     | taskmanager.storage | Loaded 3 tasks from D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:08 | INFO     | taskmanager.storage | Saved 3 tasks to D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:08 | INFO     | taskmanager.manager | Task completed: id=1 title='Finish OS lab'
+2026-10-23 02:08:09 | INFO     | taskmanager.storage | Loaded 3 tasks from D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:09 | INFO     | taskmanager.storage | Loaded 3 tasks from D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:09 | INFO     | taskmanager.storage | Saved 3 tasks to D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:09 | INFO     | taskmanager.manager | Task edited: id=2
+2026-10-23 02:08:09 | INFO     | taskmanager.storage | Loaded 3 tasks from D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:09 | INFO     | taskmanager.manager | Search 'dbms' returned 1 result(s)
+2026-10-23 02:08:10 | INFO     | taskmanager.storage | Loaded 3 tasks from D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:13 | INFO     | taskmanager.storage | Loaded 3 tasks from D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:13 | INFO     | taskmanager.storage | Saved 2 tasks to D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:13 | INFO     | taskmanager.manager | Task deleted: id=3 title='Old assignment'
+2026-10-23 02:08:46 | INFO     | taskmanager.storage | Loaded 2 tasks from D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:46 | WARNING  | taskmanager.manager | Rejected input: Title cannot be empty.
+2026-10-23 02:08:46 | INFO     | taskmanager.storage | Loaded 2 tasks from D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:46 | WARNING  | taskmanager.manager | Rejected input: Invalid priority 'urgent'. Choose one of: low, medium, high.
+2026-10-23 02:08:47 | INFO     | taskmanager.storage | Loaded 2 tasks from D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:47 | WARNING  | taskmanager.manager | Rejected input: Invalid date '25-10-2026'. Use YYYY-MM-DD.
+2026-10-23 02:08:47 | INFO     | taskmanager.storage | Loaded 2 tasks from D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:47 | WARNING  | taskmanager.manager | Rejected task: duplicate of id=2 ('Revise DBMS unit 3')
+2026-10-23 02:08:47 | INFO     | taskmanager.storage | Loaded 2 tasks from D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:47 | WARNING  | taskmanager.manager | Task not found: id=99
+2026-10-23 02:08:48 | INFO     | taskmanager.storage | Loaded 2 tasks from D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:48 | WARNING  | taskmanager.manager | Rejected input: Task 1 is already done.
+2026-10-23 02:08:48 | INFO     | taskmanager.storage | Loaded 2 tasks from D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:48 | WARNING  | taskmanager.manager | Rejected input: Nothing to update. Provide at least one field.
+2026-10-23 02:08:51 | INFO     | taskmanager.storage | Loaded 2 tasks from D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
+2026-10-23 02:08:51 | WARNING  | taskmanager.manager | Rejected input: Invalid sort 'alphabetical'. Choose id, priority, due, or created.
+2026-10-23 02:14:51 | INFO     | taskmanager.storage | Loaded 2 tasks from D:\Vibe-Coding\Productivity-tool-CLI\data\tasks.json
